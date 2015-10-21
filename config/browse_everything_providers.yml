@@ -1,0 +1,21 @@
+#
+# To make browse-everything aware of a provider, uncomment the info for that provider and add your API key information.
+# The file_system provider can be a path to any directory on the server where your application is running.
+#
+---
+file_system:
+  :home: "/quod-dev/dev/gordonl/hydra-prototype"
+# dropbox:
+#   :app_key: YOUR_DROPBOX_APP_KEY
+#   :app_secret: YOUR_DROPBOX_APP_SECRET
+box:
+  :client_id: my10kdok6v1jyzcrmgt0ptrw75q925a4
+  :client_secret: 8XidcSuTvtMg6VtEIewqZFR5hTXXCei4
+google_drive:
+  :client_id: 232170657702-9qp5e68b5lc4ve6v4qrtogbsjv9pla0o.apps.googleusercontent.com
+  :client_secret: Xtm6NANnISH3UO5SX8PMzyIF
+  #232170657702-9qp5e68b5lc4ve6v4qrtogbsjv9pla0o.apps.googleusercontent.com
+  #Xtm6NANnISH3UO5SX8PMzyIF
+# sky_drive:
+#   :client_id: YOUR_MS_LIVE_CONNECT_CLIENT_ID
+#   :client_secret: YOUR_MS_LIVE_CONNECT_CLIENT_SECRET

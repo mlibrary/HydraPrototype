@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount BrowseEverything::Engine => '/browse'
   root to: "catalog#index"
   blacklight_for :catalog
   devise_for :users

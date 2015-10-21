@@ -1,8 +1,13 @@
 development:
   user: fedoraAdmin
   password: fedoraAdmin
+<<<<<<< HEAD
   url: <%= ENV['FEDORA_URL'] || "http://localhost:8080/fedora/rest" %>
   base_path: /njaffer-dev
+=======
+  url: http://localhost:8080/fedora/rest
+  base_path: /njaffer-dev
+>>>>>>> browse-everything with redirect URI problem
 test:
   user: fedoraAdmin
   password: fedoraAdmin

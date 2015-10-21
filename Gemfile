@@ -41,6 +41,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # # Use Capistrano for deployment
 # # gem 'capistrano-rails', group: :development
 #
+# Adding browse-everything 2015-10-8 gordonl
+gem 'browse-everything'
 
 group :development do
   gem 'pry-rails'

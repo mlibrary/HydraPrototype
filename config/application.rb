@@ -9,6 +9,7 @@ Bundler.require(*Rails.groups)
 module MiD
   class Application < Rails::Application
     
+
     config.generators do |g|
       g.test_framework :rspec, :spec => true
     end
@@ -27,8 +28,9 @@ module MiD
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
+    config.web_console.whitelisted_ips = '141.211.43.195'
     config.action_controller.relative_url_root = '/demo01'
-    config.minter_statefile = '/tmp/njaffer-minter-state'
+    config.minter_statefile = '/tmp/gordonl-minter-state'
     config.active_record.raise_in_transactional_callbacks = true
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
   end
