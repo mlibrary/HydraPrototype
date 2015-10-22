@@ -4,18 +4,8 @@ module DeepBlue
   module Vocab
     class Terms < RDF::StrictVocabulary('http://lib.umich.edu/models#')
 
-      property :dateAccessioned,
-        label: "Date Accessioned".freeze,
-        subPropertyOf: "dc:date".freeze,
-        type: "rdf:Property".freeze
-
       property :dateAvailable,
         label: "Date Available".freeze,
-        subPropertyOf: "dc:date".freeze,
-        type: "rdf:Property".freeze
-
-      property :dateIssued,
-        label: "Date Issued".freeze,
         subPropertyOf: "dc:date".freeze,
         type: "rdf:Property".freeze
 
